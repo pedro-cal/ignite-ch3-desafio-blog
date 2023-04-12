@@ -1,1 +1,50 @@
-// TODO
+.banner {
+  width: 100%;
+  max-height: 400px;
+
+  img {
+    width: 100%;
+    height: 400px;
+    object-fit: cover;
+  }
+}
+
+.postBox {
+  margin-top: 80px;
+
+  h1 {
+    color: var(--heading);
+    font-family: 'Inter';
+    font-weight: 700;
+    font-size: 48px;
+    line-height: 58.09px;
+    letter-spacing: -0.5px;
+    margin-bottom: 24px;
+  }
+}
+
+.postInfoBox {
+  color: var(--info);
+  display: flex;
+  gap: 24px;
+
+  span {
+    color: var(--info);
+    display: flex;
+    gap: 8px;
+  }
+}
+
+.postContent {
+  margin-top: 64px;
+  color: var(--body);
+
+  h2 {
+    margin: 18px 0;
+  }
+
+  p {
+    line-height: 1.5rem;
+  }
+
+}

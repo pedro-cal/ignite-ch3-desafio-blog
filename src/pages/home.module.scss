@@ -1,1 +1,54 @@
-// TODO
+.postsBox {
+  button {
+    background-color: transparent;
+    border: none;
+    margin-top: 64px;
+    font-size: 18px;
+    line-height: 21.78px;
+    font-weight: 600;
+    color: var(--highlight);
+  }
+
+  & > div {
+    h1 {
+      color: var(--heading);
+      margin-bottom: 8px;
+      font-family: 'Inter';
+      font-weight: 700;
+      font-size: 28px;
+      line-height: 33.88px;
+    }
+
+    h2 {
+      color: var(--body);
+      margin-bottom: 24px;
+      font-family: 'Inter';
+      font-weight: 400;
+      font-size: 18px;
+      line-height: 21.78px;
+    }
+
+    & > div {
+      display: flex;
+      gap: 26px;
+
+      & > div {
+        color: var(--info);
+        display: flex;
+        gap: 8px;
+      }
+    }
+
+    p, time {
+      color: var(--info);
+      font-family: 'Inter';
+      font-weight: 400;
+      font-size: 13px;
+      line-height: 16.94px;
+    }
+  }
+
+  & > div + div {
+    margin-top: 48px;
+  }
+}
